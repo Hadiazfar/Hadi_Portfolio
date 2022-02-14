@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -26,7 +26,7 @@ function Footer() {
               </a>
             </li>
            
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 // href="https://www.linkedin.com/in/soumyajit4419/"
                 style={{ color: "white" }}
@@ -35,7 +35,7 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
-            </li>
+            </li> */}
             
           </ul>
         </Col>
