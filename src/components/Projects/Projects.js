@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import leaf from "../../Assets/Projects/expense.png";
-
+import covid3 from "../../Assets/covid3.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -29,6 +29,15 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={covid3}
+              isBlog={false}
+              title="Covid App"
+              description="Fetching Third Party Api by using React Hooks and Material Ui and Chart.js"
+              link="http://api-fetching-covid-app.surge.sh"
+            />
+          </Col>
        
 
         
