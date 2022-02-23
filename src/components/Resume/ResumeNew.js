@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import Button from "react-bootstrap/Button";
 
-import pdf from "../../Assets/CurriculumVitae.pdf";
+import pdf from "../../Assets/Resume.pdf";
 
 import { AiOutlineDownload } from "react-icons/ai";
 import {pdfjs } from "react-pdf";
